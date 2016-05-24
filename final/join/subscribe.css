@@ -30,31 +30,31 @@ html{
 }
 
 
- #hexagon { 
- 
+ #hexagon {
+
  margin-left:15%;
 
- 
+
  width: 100px;
- height: 75px; 
+ height: 75px;
  background:  	#808080 ;
- position: relative; } 
- 
- 
- #hexagon:before { content: ""; 
+ position: relative; }
+
+
+ #hexagon:before { content: "";
  position: absolute;
- bottom: -30px; 
- left: 0; 
+ bottom: -30px;
+ left: 0;
  width: 0;
- height: 0; 
- border-left: 50px solid transparent; 
+ height: 0;
+ border-left: 50px solid transparent;
  border-right: 50px solid transparent;
- border-top: 30px solid #808080 ;  
+ border-top: 30px solid #808080 ;
 }
 
 
 .navbar {
-  position: absolute; 
+  position: absolute;
 
 
 text-align: center;
@@ -64,7 +64,7 @@ height: 20px;
 
 bottom:40px;
     right:6%;
-	
+
 
 }
 
@@ -133,8 +133,11 @@ padding-top:100px;
 text-align:center;
 }
 
+
 fieldset {
     height: 300px;
+    padding-left: 15px;
+    font-size: 20px;
 }
 
 .myform{
@@ -153,6 +156,13 @@ text-align:left;
 margin-bottom:15px;
 }
 
+.sub{
+
+height: 25px;
+width:75px;
+margin-right:25px;
+margin-top: 15px;
+}
 .location{
 	text-align:center;
 	color:white;
@@ -171,4 +181,3 @@ margin-bottom:15px;
   height:40px;
   width: 40px;
 }
-

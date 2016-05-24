@@ -227,6 +227,11 @@ height:400px;
 
 }
 
+.options img{
+  width:250px;
+  height:150px;
+}
+
 
 .crow3{
   display: flex;
